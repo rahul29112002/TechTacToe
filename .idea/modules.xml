@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/techtactoe.iml" filepath="$PROJECT_DIR$/.idea/modules/techtactoe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../techtactoe/.idea/modules/techtactoe_main.iml" filepath="$PROJECT_DIR$/../techtactoe/.idea/modules/techtactoe_main.iml" group="techtactoe" />
+      <module fileurl="file://$PROJECT_DIR$/../techtactoe/.idea/modules/techtactoe_test.iml" filepath="$PROJECT_DIR$/../techtactoe/.idea/modules/techtactoe_test.iml" group="techtactoe" />
+    </modules>
+  </component>
+</project>

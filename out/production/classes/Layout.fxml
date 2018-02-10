@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="296.0" prefWidth="484.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.techtactoe.TechTacToeLayoutController">
+    <GridPane fx:id="grid" prefHeight="306.0" prefWidth="483.0">
+        <JFXButton ripplerFill="GREEN" onAction="#buttonOnAction" prefHeight="100" prefWidth="161.0" GridPane.columnIndex="0"
+                   GridPane.rowIndex="0">
+            <font>
+                <Font name="Segoe UI" size="25"/>
+            </font>
+        </JFXButton>
+        <JFXButton ripplerFill="GREEN" onAction="#buttonOnAction" prefHeight="100" prefWidth="161.0" GridPane.columnIndex="1"
+                   GridPane.rowIndex="0">
+            <font>
+                <Font name="Segoe UI" size="25"/>
+            </font>
+        </JFXButton>
+        <JFXButton ripplerFill="GREEN" onAction="#buttonOnAction" prefHeight="100" prefWidth="161.0" GridPane.columnIndex="2"
+                   GridPane.rowIndex="0">
+            <font>
+                <Font name="Segoe UI" size="25"/>
+            </font>
+        </JFXButton>
+        <JFXButton ripplerFill="GREEN" onAction="#buttonOnAction" prefHeight="100" prefWidth="161.0" GridPane.columnIndex="0"
+                   GridPane.rowIndex="1">
+            <font>
+                <Font name="Segoe UI" size="25"/>
+            </font>
+        </JFXButton>
+        <JFXButton ripplerFill="GREEN" onAction="#buttonOnAction" prefHeight="100" prefWidth="161.0" GridPane.columnIndex="1"
+                   GridPane.rowIndex="1">
+            <font>
+                <Font name="Segoe UI" size="25"/>
+            </font>
+        </JFXButton>
+        <JFXButton ripplerFill="GREEN" onAction="#buttonOnAction" prefHeight="100" prefWidth="161.0" GridPane.columnIndex="2"
+                   GridPane.rowIndex="1">
+            <font>
+                <Font name="Segoe UI" size="25"/>
+            </font>
+        </JFXButton>
+        <JFXButton ripplerFill="GREEN" onAction="#buttonOnAction" prefHeight="100" prefWidth="161.0" GridPane.columnIndex="0"
+                   GridPane.rowIndex="2">
+            <font>
+                <Font name="Segoe UI" size="25"/>
+            </font>
+        </JFXButton>
+        <JFXButton ripplerFill="GREEN" onAction="#buttonOnAction" prefHeight="100" prefWidth="161.0" GridPane.columnIndex="1"
+                   GridPane.rowIndex="2">
+            <font>
+                <Font name="Segoe UI" size="25"/>
+            </font>
+        </JFXButton>
+        <JFXButton ripplerFill="GREEN" onAction="#buttonOnAction" prefHeight="100" prefWidth="161.0" GridPane.columnIndex="2"
+                   GridPane.rowIndex="2">
+            <font>
+                <Font name="Segoe UI" size="25"/>
+            </font>
+        </JFXButton>
+        <columnConstraints>
+            <ColumnConstraints/>
+            <ColumnConstraints/>
+            <ColumnConstraints/>
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints/>
+            <RowConstraints/>
+            <RowConstraints/>
+        </rowConstraints>
+    </GridPane>
+</AnchorPane>

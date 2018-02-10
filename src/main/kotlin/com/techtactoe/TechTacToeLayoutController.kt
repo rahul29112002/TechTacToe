@@ -69,8 +69,10 @@ class TechTacToeLayoutController : Initializable {
     }
 
     private fun victoryCheck() {
+        var flag = false
         combinations.forEach {
             if (it.applies()) {
+                flag = true
                 tokenSwitch()
                 Alert(Alert.AlertType.INFORMATION,
                         "Congratulations, $token won!").apply {
